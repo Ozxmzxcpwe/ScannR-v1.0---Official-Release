@@ -57,7 +57,7 @@ def check_link(url):
         risk += 1
         reasons.append("phishing keywords detected")
 
-    # RESULTADO
+    
     if risk >= 4:
         print(Fore.RED + "\n[!!!] LIMPIO!")
         print(Fore.RED + "RISK SCORE: 90-100")
